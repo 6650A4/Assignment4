@@ -8,3 +8,4 @@
 ### GCP
 * App Engine Default Settings
 * CloudSQL db-n1-standard-8
+* Client running in same region as DB and Server
