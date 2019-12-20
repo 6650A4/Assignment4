@@ -1,0 +1,8 @@
+RewriteEngine on
+RewriteRule ^skiers/([0-9]+)/seasons/([0-9]+)/days/([0-9]+)/skiers/([0-9]+)$ skiers.php?resortID=$1&seasonID=$2&dayID=$3&skierID=$4
+RewriteRule ^skiers/([0-9]+)/vertical$ skiervertical.php?skierID=$1
+RewriteRule ^resorts/([0-9]+)/seasons$ resortseason.php?resortID=$1
+RewriteRule ^resorts$ resorts.php
+
+                                                                                                                           
+
